@@ -1,0 +1,42 @@
+/* Fundo Animado */
+
+.squares li{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(60,142,230,0.15);
+    display: block;
+    position: absolute;
+    bottom: -120px;
+    animation: up 2s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes up {
+    from {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 0.5;
+    }
+    to {
+      transform: translateY(-1000px) rotate(960deg);
+      opacity: 0;
+    }
+  }
+
+/* Form */
+.form{
+    animation: fadeIn 500ms;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,138 @@
+.container-voto{
+    display: grid;
+    min-height: auto;
+    grid-template-rows: 10vh 10vh 75vh 5vh;
+    grid-template-areas: "header" "titulo" "main-form" "footer";
+    overflow-y: hidden;
+    flex-wrap: wrap;
+}
+
+.header{
+    background-color: #112740;
+    color: white;
+    grid-area: header;
+    display: grid;
+    justify-content: left;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.box-flex{
+    display: flex;
+    align-items: center;
+}
+
+.box-flex p {
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.header h1{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+
+h3{
+    grid-area: titulo;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    color: #214F80;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.vote-container{
+    padding: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.options{
+    display: grid;
+    grid-template-rows: 100px 230px 70px;
+    grid-template-areas: "h" "b" "f"; /* Header body footer*/
+    height: 400px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.24);
+    background-color: #429DFF;
+    margin: 15px;
+    transform: scale(1);
+    transition: ease 0.5s;
+}
+
+.options:hover{
+    transform: scale(1.1);
+}
+
+.card-footer{
+    grid-area: f;
+    display: flex;
+}
+
+.card-header{
+    grid-area: h;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-header h5{
+    font-size: 26px;
+    color: white;
+}
+
+.card-body{
+    grid-area: b;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.card-body p{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+.card-footer button{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: #112740;
+    color: white;
+    font-size: 26px;
+    border: none;
+    transition: ease 0.5s;
+}
+
+.card-footer button:hover{
+    opacity: 0.8;
+}
+
+
+
+
+.footer{
+    background-color: #112740;
+    font-weight: bold;
+    color: rgb(241, 238, 226);
+    grid-area: footer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

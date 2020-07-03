@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    min-width: 330px;
+    min-height: auto;
+    grid-template-rows: 10vh 90vh 80vh 5vh;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main-form" "main-table" "footer";
+}
+
+
+h3{
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    color: #05147D;
+}
+
+
+.footer{
+    background-color: #003B74;
+    font-weight: bold;
+    color: rgb(241, 238, 226);
+    grid-area: footer;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

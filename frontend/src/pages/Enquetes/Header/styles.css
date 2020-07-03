@@ -1,0 +1,21 @@
+.header{
+    background-color: #112740;
+    color: white;
+    grid-area: header;
+    display: grid;
+    justify-content: left;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.box-flex{
+    display: flex;
+    align-items: center;
+}
+
+.header h1{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-right: 15px;
+}
+
