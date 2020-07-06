@@ -15,7 +15,7 @@ O desafio é criar um sistema de votação
 ## Comandos
     - cd backend
     - php S- localhost:8080
-    - cd ..
+    - Agora, abra um outro terminal e execute:
     - cd frontend
     - yarn install
     - yarn start
