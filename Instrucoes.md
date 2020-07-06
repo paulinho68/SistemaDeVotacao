@@ -9,16 +9,16 @@ O desafio é criar um sistema de votação
     - yarn instalado;
 
 ## Antes de tudo:
-    - habilite o apache e o maysql no xampp
+    - habilite o apache e o mysql no xampp
     - Rode a query que está no final desta instrução;
 
 ## Comandos
-    - cd backend;
-    - php S- localhost:8080;
-    - cd ..;
-    - cd frontend;
-    - yarn install; 
-    - yarn start;
+    - cd backend
+    - php S- localhost:8080
+    - cd ..
+    - cd frontend
+    - yarn install
+    - yarn start
 
 
 -- phpMyAdmin SQL Dump
